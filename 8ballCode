@@ -1,0 +1,36 @@
+import random
+name = 'Mike'
+question = 'will i be a billionaire?'
+answer = ''
+rn = random.randint(1,10)
+#print(random_number)
+if rn == 1:
+  answer=('Yes - definitely')
+elif rn==2:
+  answer=('It is decidedly so')
+elif rn==3:
+  answer=('Without a doubt')
+elif rn==4:
+  answer=('Reply hazy, try again')
+elif rn==5:
+  answer=('Ask again later')
+elif rn==6:
+  answer=('Better not tell you now')
+elif rn==7:
+  answer=('My sources say no')
+elif rn==8:
+  answer=('Outlook not so good')
+elif rn==9:
+  answer=('Outlook not so good')
+elif rn==10:
+  answer=('Yaaaaaaaa')
+else:
+  answer=('Error')
+if question=='':
+  print('Missing question')
+elif name =='':
+  print('Question: ' + question)
+  print("Magic 8-Ball's answer: "+ answer )
+else:
+  print(name + ' asks: ' + question)
+  print("Magic 8-Ball's answer: "+ answer )
